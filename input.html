@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <form action="">
+        <h2 style="margin-left: 15px;">أكمل المعلومات من اجل الحصول على الجائزه</h2>
+        <div class="inputs">
+            <div class="inputGroup">
+                <input type="text" required="" id="first" >
+                <label for="name">الاسم الثاني</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" id="second" >
+                <label for="name">الاسم الاول</label>
+            </div>
+            
+        </div>
+        <div>
+            <p id="result" class="resultt"></p>
+            <input placeholder="رقم الهاتف" type="tel" class="phone" >
+             <div class="check1"> 
+                <p>قرأت <span>الاحكام والشروط</span> واوفق عليها</p>
+                <input type="checkbox">
+             </div>
+             <div class="check1">
+                <p>قرأت <span> سياسة الخصوصيه </span> واوفق عليها</p>
+                <input type="checkbox">
+             </div>
+        </div>
+       <div class="end">
+        <a onclick="end()">انهاء</a>
+       </div>
+    </form>
+    <script src="input.js"></script>
+</body>
+</html>

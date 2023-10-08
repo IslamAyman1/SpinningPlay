@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 190px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  .inputGroup input:hover{
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    right: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-85%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+  .inputs{
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* From uiverse.io by @alexruix */
+.phone {
+    margin-top: 5px;
+    width: 400px;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   }
+   
+   .phone:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+   }
+   
+   .phone::placeholder {
+    color: #777;
+    font-size: 20px;
+    position: absolute;
+    right:5px;
+   }
+   
+   .phone:focus::placeholder {
+    opacity: 0;
+    
+    font-size:20px;;
+    transition: opacity .3s;
+   }
+   .check1{
+    display: flex;
+    position: relative;
+    left:200px
+   }
+   .check1 p{
+     margin-right: 3px;
+   }
+   .check1 p span{
+    color:rgb(181, 181, 0);
+    text-decoration: underline;
+   }
+
+   a{
+    width:410px;
+    background-color: rgb(181, 181, 0);
+    outline: none;
+    border:solid 1px rgb(181, 181, 0);
+    color:white;
+    padding:10px;
+    cursor: pointer;
+    text-align: center;
+   }
+   .end{
+     display:flex;
+     flex-direction:column;
+   }
+   .resultt{
+     text-align: center;
+     padding:8px
+   }
+ 
+   
+   
+   
+   
+   
+   
+   

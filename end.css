@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: aliceblue;
+    width:500px;
+    height: 600px;
+    border:solid 1px aliceblue;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-image: url('Photos/WhatsApp\ Image\ 2022-11-02\ at\ 10.02.36\ PM.jpeg');
+    position: relative;
+}
+.main .first{
+    color:black;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin:0;
+    padding:10px;
+    border-radius: 5px;
+}
+.main .second{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding:10px;
+
+    width:96%;
+    position: relative;
+    bottom:15px
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.col .end{
+    background-color: burlywood;
+    padding:8px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
